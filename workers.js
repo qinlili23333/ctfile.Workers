@@ -5,11 +5,13 @@ addEventListener("fetch", (event) => {
         )
     );
 });
-password=YOUR_DEFAULT_PASSWORD
+password=547873715
 async function handleRequest(request) {
     let url = new URL(request.url);
     const { pathname } = new URL(request.url);
-
+    if(url.searchParams.get("pass")){
+        password=url.searchParams.get("pass")
+    }
     if (pathname.startsWith("/directlink")) {
         var fileid = url.searchParams.get("file");
         var link = await fileToLink(fileid);
