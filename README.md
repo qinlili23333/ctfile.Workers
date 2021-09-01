@@ -3,7 +3,7 @@
 
 ## 使用方法
 复制workers.js到cloudflare workers内  
-记得修改password变量为你的[自定义密码](https://home.ctfile.com/#item-settings/action-passcode)  
+记得修改password变量为你的[默认自定义密码](https://home.ctfile.com/#item-settings/action-passcode)  
 
 ##### 提供了一个琴梨梨自建的服务[ctdirect.qinlili.bid](https://ctdirect.qinlili.bid)
 
@@ -18,7 +18,6 @@
 示例：`https://ctdirect.qinlili.bid/proxylink?file=8067059-498942848-21cb26`  
 
 ## 暂未实现的功能/TODO
-支持在参数内自定义密码  
 支持更多参数读取  
 
 #### 需要用户友好的网页界面？[看看这个网页版](https://github.com/qinlili23333/ctfileGet/)
