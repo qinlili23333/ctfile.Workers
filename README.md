@@ -20,4 +20,5 @@
 ## 暂未实现的功能/TODO
 支持更多参数读取  
 
-#### 需要用户友好的网页界面？[看看这个网页版](https://github.com/qinlili23333/ctfileGet/)
+#### 需要用户友好的网页界面？[看看这个网页版](https://github.com/qinlili23333/ctfileGet/)  
+#### 需要更快的国内访问？试试[腾讯云版](https://github.com/qinlili23333/ctfile.TencentCloud/)  
