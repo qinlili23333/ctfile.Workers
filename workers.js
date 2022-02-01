@@ -30,6 +30,15 @@ async function handleRequest(request) {
             return new Response('文件不存在', { status: 404 })
         }
     }
+    if (pathname.startsWith("/getlink")) {
+        var fileid = url.searchParams.get("file");
+        var link = await fileToLink(fileid);
+        if (link) {
+            return new Response(link, { status: 200 })
+        } else {
+            return new Response('文件不存在', { status: 404 })
+        }
+    }
     return new Response('不支持的URL请求', { status: 404 })
 }
 
