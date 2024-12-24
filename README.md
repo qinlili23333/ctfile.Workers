@@ -5,7 +5,7 @@
 复制workers.js到cloudflare workers内  
 记得修改password变量为你的[默认自定义密码](https://home.ctfile.com/#item-settings/action-passcode)  
 
-##### 提供了一个琴梨梨自建的服务[ctdirect.qinlili.bid](https://ctdirect.qinlili.bid)
+##### 提供了一个琴梨梨自建的服务[ctdirect.qinlili.bid](https://ctdirect.qinlili.bid)，本服务不保证可靠性，并且会记录你所解析的文件历史和网络环境（并随时可能对外界公开解析记录），使用即视为同意  
 
 ## 支持接口
 ### directlink
@@ -19,7 +19,7 @@
 ### getlink
 参数：file（分享链接`/f/`之后的部分，如`8067059-498942848-21cb26`)，pass（文件密码，不传入则使用内置默认密码）  
 该接口将以文本返回直连地址    
-示例：`https://ctdirect.qinlili.bid/proxylink?file=8067059-498942848-21cb26`  
+示例：`https://ctdirect.qinlili.bid/getlink?file=8067059-498942848-21cb26`  
 
 ## 暂未实现的功能/TODO
 支持更多参数读取  
